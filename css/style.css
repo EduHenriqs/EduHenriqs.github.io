@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Dancing-Bold';
+    src: url('../webfonts/DancingScript-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: 700; 
+    font-style: normal; 
+}
+
+
+:root {
+    --cor-vinho: #9f1857;
+    --cor-bege: #c48b6d;
+    --cor-branco: #fefefe;
+    --cor-ciano: #105c6c;
+    --cor-cimento : #5c7982;
+}
+
+.bg-vinho{
+    background-color: var(--cor-vinho);
+}
+
+.text-branco{
+    color: var(--cor-branco);
+}
+
+.text-branco:hover{
+    color: var(--cor-cimento);
+}
+
+.btn-whats{
+    background: linear-gradient(45deg, #07d25a, #079442);
+    transition: transform 0.2s ease;
+}
+
+.btn-insta{
+    background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+    transition: transform 0.2s ease;
+}
+
+.btn-insta:hover{
+    transform: scale(1.1);
+}
+
+.btn-whats:hover{
+    transform: scale(1.1);
+}
+
+.titulo-section {
+    font-family: 'Dancing-Bold', sans-serif;   
+    font-size: 3.5rem;
+}
+
+.text-justify{
+    text-align: justify;
+}
